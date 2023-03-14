@@ -17,7 +17,7 @@ func TestRepeat(t *testing.T) {
 	})
 
 	t.Run("Repeat(\"a\", 0)", func(t *testing.T) {
-		repeated := Repeat("a", 5)
+		repeated := Repeat("a", 0)
 		expected := ""
 		assertCorrectMessage(t, repeated, expected)
 	})
